@@ -10,3 +10,10 @@ think it offers?
     area is a list of files from your working directory you are planning to include in your next
     commit. By distinguishing these it is possible to not commit all changed files in a single
     commit, but split them up into separate logical wholes.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+    You can use git diff and git diff --staging to have a look at which changes you are about to
+    commit and which ones you are leaving out. This allows you to make sure the combination of
+    changes adds up to a logical whole.

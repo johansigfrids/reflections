@@ -17,3 +17,11 @@ How can you use the staging area to make sure you have one commit per logical ch
     You can use git diff and git diff --staging to have a look at which changes you are about to
     commit and which ones you are leaving out. This allows you to make sure the combination of
     changes adds up to a logical whole.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would
+branches help?
+
+    If you were working on a side change you don't yet want to commit to master until it is ready,
+    but you still want to do commit to have the advantages of being able to go back, you could
+    create a branch and do the commits on that branch.

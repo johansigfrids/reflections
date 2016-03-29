@@ -39,4 +39,11 @@ What is the result of merging two branches together? Why do we represent it in t
 we do?
 
     The result of merging two branches is a new commit containing the changes in both branches. At
-    that point both branches point to the same commit, so they have merged. 
+    that point both branches point to the same commit, so they have merged.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+    If you always do merges by hand it gets very tiresome and disincentivizes you from doing a lot
+    of branches. There is a risk that something that really should be handled manually gets merged
+    automatically, though. 

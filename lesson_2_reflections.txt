@@ -3,6 +3,7 @@ What happens when you initialize a repository? Why do you need to do it?
     Git keeps a hidden .git folder with meta-data about the repository. When you initialize a
     repository git creates this directory and sets up the initial metadata.
 
+
 How is the staging area different from the working directory and the repository? What value do you
 think it offers?
 
@@ -25,3 +26,10 @@ branches help?
     If you were working on a side change you don't yet want to commit to master until it is ready,
     but you still want to do commit to have the advantages of being able to go back, you could
     create a branch and do the commits on that branch.
+
+
+How do the diagrams help you visualize the branch structure?
+
+    They help by showing the parents of each commit in each branch. That way you can see when the
+    parent in one branch is a commit in a separate branch, which tells you where the branch branched
+    off of. 

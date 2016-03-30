@@ -1,4 +1,12 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
-    Using a remote repository gives you a place in the cloud to sync changes between computers or co-workers. It also
-    functions as a useful backup of your code. 
+    Using a remote repository gives you a place in the cloud to sync changes between computers or
+    co-workers. It also functions as a useful backup of your code.
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay
+up-to-date with your remote repository?
+
+    If git automatically pulled changes from the remote there is a risk that it ended up pulling
+    while you were in the middle of doing changes on head. This could lead to conflicts between
+    what you were doing and the code pulled by git.

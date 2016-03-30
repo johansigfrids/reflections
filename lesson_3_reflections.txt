@@ -24,3 +24,12 @@ What is the benefit of having a copy of the last known state of the remote store
 
     That way you can work on making changes to the last remote state even if you do not have
     internet access.
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be
+harder?
+
+    Would probably use something like google docs. It would automatically, constantly merge changes
+    and you could see what changes are made. You would not be able to use a proper text editor and
+    you would not have a nice logical history of commits. Nor would you have the ability to do pull
+    requests.

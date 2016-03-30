@@ -17,4 +17,10 @@ another?
 
     I would use fork when I wanted my own version of a existing project on Github. I would use clone
     to get a local copy of a repository on GitHub. I would use branches to manage different
-    collections of commits in my repository. 
+    collections of commits in my repository.
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+    That way you can work on making changes to the last remote state even if you do not have
+    internet access.

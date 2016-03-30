@@ -33,3 +33,11 @@ harder?
     and you could see what changes are made. You would not be able to use a proper text editor and
     you would not have a nice logical history of commits. Nor would you have the ability to do pull
     requests.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What
+benefits does each approach have?
+
+    The benefit of a pull request is if you are collaborating with other people. It gives them a
+    chance to review the changes before they are merger into master. If you are the sole developer
+    then doing pull requests is unnecessary. 

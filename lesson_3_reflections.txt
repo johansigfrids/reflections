@@ -10,3 +10,11 @@ up-to-date with your remote repository?
     If git automatically pulled changes from the remote there is a risk that it ended up pulling
     while you were in the middle of doing changes on head. This could lead to conflicts between
     what you were doing and the code pulled by git.
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of
+another?
+
+    I would use fork when I wanted my own version of a existing project on Github. I would use clone
+    to get a local copy of a repository on GitHub. I would use branches to manage different
+    collections of commits in my repository. 
